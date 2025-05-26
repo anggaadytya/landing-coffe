@@ -47,7 +47,7 @@ export default function PromotionSection() {
                 height={80}
                 className="object-contain"
               />
-              <h3 className="text-amber-900 font-bold text-lg md:text-xl lg:text-2xl">
+              <h3 className="text-amber-900 font-bold text-lg md:text-xl lg:text-2xl text-center">
                 {item.title}
               </h3>
               <p className="font-extralight text-xs md:text-sm lg:text-base text-center">
