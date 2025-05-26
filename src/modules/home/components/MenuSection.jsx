@@ -93,6 +93,48 @@ export default function MenuSection() {
           </div>
         </div>
       </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 mx-6 md:mx-0 py-6 md:py-12 lg:py-24">
+        <div
+          data-aos={isMobile ? "fade-up" : "fade-right"}
+          className="relative w-fit"
+        >
+          <div className="flex gap-2 md:gap-4 lg:gap-6">
+            <Image
+              src="/images/menu-1.jpg"
+              alt="Promotion"
+              width={320}
+              height={100}
+              className="shadow-2xl rounded-md mt-20 w-[50%] md:w-[45%] lg:w-[40%]"
+            />
+            <Image
+              src="/images/menu-2.jpg"
+              alt="Promotion"
+              width={320}
+              height={100}
+              className="shadow-2xl rounded-md mb-20 w-[50%] md:w-[45%] lg:w-[40%]"
+            />
+          </div>
+        </div>
+        <div
+          className="flex justify-center items-center"
+          data-aos={isMobile ? "fade-up" : "fade-left"}
+        >
+          <div className="flex flex-col gap-2 md:gap-2 lg:gap-4">
+            <p className="text-amber-900 text-xl md:text-2xl lg:text-3xl">
+              Experiences
+            </p>
+            <h4 className="font-semibold text-2xl md:text-4xl lg:text-6xl">
+              we provide you the best experience
+            </h4>
+            <p className="font-extralight text-sm md:text-base lg:text-lg text-justify">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium cupiditate inventore eligendi expedita provident
+              consequatur, fugit iure nisi sunt possimus ea quibusdam veniam
+              blanditiis natus commodi reiciendis maxime facilis! Inventore.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
