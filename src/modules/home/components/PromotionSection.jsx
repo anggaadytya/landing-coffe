@@ -10,7 +10,7 @@ export default function PromotionSection() {
         alt="Promotion"
         width={500}
         height={500}
-        className="absolute -top-0 md:-top-25 right-0 w-[50%] md:w-[30%] lg:w-[25%]"
+        className="absolute top-9 lg:-top-25 right-0 w-[50%] md:w-[30%] lg:w-[25%]"
         data-aos="fade-up"
       />
       <Image
@@ -18,7 +18,7 @@ export default function PromotionSection() {
         alt="Promotion"
         width={500}
         height={500}
-        className="absolute -bottom-10 md:-top-25 left-0 w-[50%] md:w-[30%] lg:w-[25%]"
+        className="absolute -bottom-10 lg:-top-25 left-0 w-[50%] md:w-[30%] lg:w-[25%]"
         data-aos="fade-up"
       />
       <div className="flex justify-center flex-col items-center gap-2 md:gap-4 lg:gap-6">

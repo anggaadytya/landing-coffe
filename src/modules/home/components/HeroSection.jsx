@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeroSection() {
   return (
-    <section className="absolute w-full top-0 hero_background h-[95dvh] py-20">
+    <section className="absolute w-full top-0 hero_background h-[95vh] py-20">
       <div
         data-aos="fade-up"
         className="text-center w-full mt-40 flex flex-col justify-start items-center gap-2 md:gap-4 lg:gap-6 px-5"

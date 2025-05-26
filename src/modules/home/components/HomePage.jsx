@@ -7,7 +7,7 @@ import MenuSection from "./MenuSection";
 export default function HomePage() {
   return (
     <>
-      <section className="h-[90dvh]">
+      <section className="h-[90vh]">
         <HeroSection />
       </section>
       <PromotionSection />

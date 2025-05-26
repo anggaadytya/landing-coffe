@@ -16,7 +16,7 @@ export default function ServiceSection() {
   }, []);
 
   return (
-    <section className="h-[80dvh] services_background relative">
+    <section className="h-[65vh] services_background relative">
       <Image
         src="/images/left_wing.svg"
         alt="Promotion"
@@ -46,7 +46,7 @@ export default function ServiceSection() {
             key={currentIndex}
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="relative shadow-2xl block lg:hidden"
+            className="relative shadow-2xl block md:hidden"
           >
             <Image
               src={TestimonialValue[currentIndex].img}
@@ -80,7 +80,7 @@ export default function ServiceSection() {
             <div
               key={index}
               data-aos="fade-up"
-              className="relative shadow-2xl hidden lg:block"
+              className="relative shadow-2xl hidden md:block"
             >
               <Image
                 src={item.img}
