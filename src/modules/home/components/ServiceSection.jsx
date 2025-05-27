@@ -16,7 +16,7 @@ export default function ServiceSection() {
   }, []);
 
   return (
-    <section className="h-[45vh] md:h-[65vh] services_background relative">
+    <section className="h-[65vh] services_background relative">
       <Image
         src="/images/left_wing.svg"
         alt="Promotion"
