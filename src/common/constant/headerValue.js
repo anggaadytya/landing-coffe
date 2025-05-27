@@ -11,11 +11,9 @@ export const headerValue = [
     title: "Products",
     url: "/",
   },
-  { title: "Gallery", url: "/" },
+  { title: "Gallery", url: "/gallery" },
   {
     title: "Contact Us",
     url: "/",
   },
 ];
-
-
