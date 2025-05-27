@@ -65,7 +65,7 @@ export default function GallerySection() {
 
   return (
     <>
-      <section className="h-[70vh] md:h-[90vh]">
+      <section className="h-[80vh] md:h-[90vh]">
         <HeroSectionImage />
       </section>
       <div className="container mx-auto px-4 py-10 md:py-20">

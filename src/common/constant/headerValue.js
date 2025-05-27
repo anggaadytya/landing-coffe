@@ -5,15 +5,15 @@ export const headerValue = [
   },
   {
     title: "About Us",
-    url: "/",
+    url: "/about",
   },
   {
     title: "Products",
     url: "/",
   },
   { title: "Gallery", url: "/gallery" },
-  {
-    title: "Contact Us",
-    url: "/",
-  },
+  // {
+  //   title: "Contact Us",
+  //   url: "/",
+  // },
 ];
